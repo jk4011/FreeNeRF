@@ -49,6 +49,7 @@ class Config:
   """Configuration flags for everything."""
   ## ------ FreeNeRF add-ons --------- ##
   #### wandb settings ###
+  group: str = 'freenerf'
   expname: str = 'debug'
   use_wandb: bool = True  # Whether to use wandb.
   entity: str = 'FreeNeRF'
