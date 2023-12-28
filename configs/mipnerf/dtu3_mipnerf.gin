@@ -1,6 +1,6 @@
-
-Config.expname = "regnerf"
-Config.checkpoint_dir = "out/regnerf"
+Config.group = "mipnerf"
+Config.expname = "mipnerf_dtu3"
+Config.checkpoint_dir = "out/mipnerf"
 Config.dtu_scan = "scan8"
 
 # basic configs

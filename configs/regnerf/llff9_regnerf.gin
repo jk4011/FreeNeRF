@@ -1,6 +1,6 @@
-
-Config.expname = "myexp"
-Config.checkpoint_dir = "out/myexp"
+Config.group = "regnerf"
+Config.expname = "regnerf_llff9"
+Config.checkpoint_dir = "out/regnerf"
 Config.llff_scan = "horns"
 
 # basic configs
@@ -24,7 +24,7 @@ Config.occ_wb_prior = False
 # num_views dependent config
 Config.n_input_views = 9
 Config.max_steps = 209303
-Config.project = "llff3"
+Config.project = "llff9"
 
 # regnerf originals
 Config.lr_init = 0.002

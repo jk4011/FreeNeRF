@@ -259,11 +259,12 @@ def main(unused_argv):
   if config.use_wandb:
     import wandb
     while wandb.init(
-      project=config.project, 
-      entity=config.entity, 
+      project="nerf",
+      group=config.group,
+      # entity=config.entity, 
       sync_tensorboard=True) is not wandb.run:
       continue
-    wandb.run.name = config.expname
+    wandb.run.name = config.project
     wandb.run.save()
     wandb.config.update(config)
   ## ---------------------------- ##
@@ -272,7 +273,7 @@ def main(unused_argv):
   import json
   printable_vars = {k:v for k, v in vars(config).items() if not callable(v)}
   print(json.dumps(printable_vars, sort_keys=False, indent=4))
-  print('training exp:', config.expname)
+  print('training exp:', config.project)
   ## ---------------------------- ##
   
   if config.batch_size % jax.device_count() != 0:

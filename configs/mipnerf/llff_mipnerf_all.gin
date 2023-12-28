@@ -1,6 +1,6 @@
-
-Config.expname = "myexp"
-Config.checkpoint_dir = "out/myexp"
+Config.group = "mipnerf"
+Config.expname = "mipnerf_llff_all"
+Config.checkpoint_dir = "out/mipnerf"
 Config.llff_scan = "horns"
 
 # basic configs
@@ -17,7 +17,7 @@ MLP.density_noise = 1.
 # num_views dependent config
 Config.n_input_views = 100
 Config.max_steps = 500000
-Config.project = "llff3"
+Config.project = "llff_all"
 
 
 # use trick or not

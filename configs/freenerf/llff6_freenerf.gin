@@ -1,6 +1,6 @@
-
-Config.expname = "myexp"
-Config.checkpoint_dir = "out/myexp"
+Config.group = "freenerf"
+Config.expname = "freenerf_llff6"
+Config.checkpoint_dir = "out/freenerf"
 Config.llff_scan = "horns"
 
 # basic configs

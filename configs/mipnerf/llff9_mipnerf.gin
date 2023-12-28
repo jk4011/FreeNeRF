@@ -1,6 +1,6 @@
-
-Config.expname = "myexp"
-Config.checkpoint_dir = "out/myexp"
+Config.group = "mipnerf"
+Config.expname = "mipnerf_llff9"
+Config.checkpoint_dir = "out/mipnerf"
 Config.llff_scan = "horns"
 
 # basic configs
@@ -25,7 +25,7 @@ Config.grad_max_val = 0.1
 # num_views dependent config
 Config.n_input_views = 9
 Config.max_steps = 209303
-Config.project = "llff3"
+Config.project = "llff9"
 
 
 # use trick or not

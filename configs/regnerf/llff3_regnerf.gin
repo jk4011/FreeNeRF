@@ -1,6 +1,6 @@
-
-Config.expname = "myexp"
-Config.checkpoint_dir = "out/myexp"
+Config.group = "regnerf"
+Config.expname = "regnerf_llff3"
+Config.checkpoint_dir = "out/regnerf"
 Config.llff_scan = "horns"
 
 # basic configs

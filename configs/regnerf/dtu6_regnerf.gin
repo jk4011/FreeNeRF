@@ -1,5 +1,5 @@
-
-Config.expname = "regnerf"
+Config.group = "regnerf"
+Config.expname = "regnerf_dtu6"
 Config.checkpoint_dir = "out/regnerf"
 Config.dtu_scan = "scan8"
 
@@ -26,7 +26,7 @@ Config.grad_max_val = 0.1
 # num_views dependent config
 Config.n_input_views = 6
 Config.max_steps = 87891
-Config.project = "dtu3_bkgd"
+Config.project = "dtu6_bkgd"
 
 
 # use trick or not
