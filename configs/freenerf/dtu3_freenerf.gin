@@ -1,6 +1,5 @@
 Config.group = "freenerf"
 Config.expname = "freenerf_dtu3"
-Config.checkpoint_dir = "out/freenerf"
 Config.dtu_scan = "scan8"
 
 # basic configs

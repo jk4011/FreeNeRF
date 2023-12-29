@@ -1,6 +1,5 @@
 Config.group = "mipnerf"
 Config.expname = "mipnerf_llff3"
-Config.checkpoint_dir = "out/mipnerf"
 Config.llff_scan = "horns"
 
 # basic configs

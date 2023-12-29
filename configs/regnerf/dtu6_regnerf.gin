@@ -1,6 +1,5 @@
 Config.group = "regnerf"
 Config.expname = "regnerf_dtu6"
-Config.checkpoint_dir = "out/regnerf"
 Config.dtu_scan = "scan8"
 
 # basic configs

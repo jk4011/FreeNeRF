@@ -1,6 +1,5 @@
 Config.group = "regnerf"
 Config.expname = "regnerf_llff6"
-Config.checkpoint_dir = "out/regnerf"
 Config.llff_scan = "horns"
 
 # basic configs

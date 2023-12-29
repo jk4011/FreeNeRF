@@ -1,6 +1,5 @@
 Config.group = "mipnerf"
 Config.expname = "mipnerf_dtu6"
-Config.checkpoint_dir = "out/mipnerf"
 Config.dtu_scan = "scan8"
 
 # basic configs
