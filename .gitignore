@@ -3,7 +3,6 @@ data
 wandb/
 tmp/
 results/
-scripts
 my_local*
 *.pyc
 data
@@ -11,3 +10,4 @@ __pycache__
 *.ipynb_checkpoints
 *.tar.gz
 debug*
+.vscode
