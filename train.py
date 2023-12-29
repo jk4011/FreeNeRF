@@ -264,7 +264,7 @@ def main(unused_argv):
       # entity=config.entity, 
       sync_tensorboard=True) is not wandb.run:
       continue
-    wandb.run.name = config.project
+    wandb.run.name = f"{config.llff_scan}_{config.project}"
     wandb.run.save()
     wandb.config.update(config)
   ## ---------------------------- ##
